@@ -12,8 +12,8 @@ import {
   RESET_SCORE,
   scoreUpdates,
   stopGame,
-} from '../store/actions/index';
-import { IGlobalState } from '../store/reducers/index';
+} from '../store/actions';
+import { IGlobalState } from '../store/reducers';
 import {
   clearBoard,
   drawObject,
